@@ -2,7 +2,7 @@
 Repository for tinkering with http://isse.sourceforge.net/ .
 For original build instructions, see http://isse.sourceforge.net/wiki/index.php/Developer .
 
-## TL;DR build instructions
+## TL;DR build instructions (MAC)
 ```
 	git submodule init
 	git submodule update
@@ -13,6 +13,12 @@ Then, for OSX:
 - click `Save project and open in IDE`, and select MacOSX
 - in the opened ISSE Xcode project, first set the `deployment target` to match your system
 - The packaging script fails (see issue #1) but the build itself is in `extras/builds/MacOSX/build/Debug`
+
+## TL;DR build instructions (Linux)
+
+Follow the instructions for Linux, but you will need, at least on Ubuntu 18.04:
+
+sudo apt install libxrandr-dev libfftw3-dev libcurl4-openssl-dev libxinerama-dev libxext-dev libx11-dev libfreetype6-dev libasound2-dev libxcursor-dev
 
 ## About FFTW
 
